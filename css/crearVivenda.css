@@ -1,0 +1,27 @@
+html{
+	text-align: justify;
+}
+body{
+	background-image: url(file:///E:/Documentos/www/elbadegiacomi/img/fondo.png);
+}
+body div{
+	float: left;
+	margin-left: 5px;
+	background-color: #FFF;
+}
+aside{
+	background-color: #FFF;
+	width: 20%;
+	min-width: 200px;
+	float: left;
+}
+aside form{
+	width: 80%;
+	margin: 0 auto;
+}
+form{
+	width: 100%;
+}
+input#descripcion{
+	min-width: 80%
+}
