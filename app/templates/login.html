@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block content %}
+	{% if error %}
+		<p>Error: {{ error }}</p>
+	{% endif %}
+	<form action="" method=post>
+		<input type="text" name="username">
+		<input type="text" name="password">
+		<input type="submit">
+	</form>
+	{% for message in get_flashed_messages() %}
+		<p>{{ message }}</p>
+	{% endfor %}
+{% endblock %}
