@@ -1,26 +1,3 @@
-body {
-	background: #323A46;
-}
-img{
-	display: block;
-	margin: 0 auto;
-}
-main{
-	width: 100%;
-	max-width: 1980px;
-	background-color: #eee;
-	overflow: hidden;
-	margin: 0 auto;
-	margin-top: 2%;
-}
-header{
-	padding: 10px;
-	background-color: #ccc;
-}
-header h1{
-	width: 100%;
-	text-align: center;
-}
 section{
 	width: 60%;
 	float: left;
@@ -82,13 +59,7 @@ aside img{
 	min-width: 200px;
 	margin: 0 auto;
 }
-footer{
-	padding: 1% 10%;
-	color: white;
-	text-align: justify;
-	background-color: #777;
-	clear: both;
-}
+
 @media screen and (max-width: 1130px){
 	aside{
 		width: 100%;
@@ -146,10 +117,6 @@ footer{
 }
 
 @media screen and (max-width: 460px){
-	main{
-		margin: 0;
-		width: 100%;
-	}
 	section{
 		padding: 0;
 		width: 100%;

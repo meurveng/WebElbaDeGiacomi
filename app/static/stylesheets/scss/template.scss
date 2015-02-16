@@ -1,0 +1,107 @@
+body {
+	background: #323A46;
+}
+.colors{
+	color: #0553b7;
+	color: #be0000;
+	color: #ffdd00;
+	color: #d10583;
+	color: #fb6800;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+main{
+	width: 100%;
+	max-width: 1980px;
+	background-color: #eee;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+header{
+	padding: 10px;
+	background-color: #ccc;
+}
+header h1{
+	width: 100%;
+	text-align: center;
+}
+a{
+	color: #FFF;
+}
+a:nth-child(1){
+	color: red;
+
+}
+a:nth-child(2){
+	color: red;
+}
+a:nth-child(3){
+	color: red;
+}
+a:nth-child(4){
+	color: red;
+}
+a:nth-child(5){
+	color: red;
+}
+a:nth-child(1):hover{
+	color: red;
+}
+a:nth-child(2):hover{
+	color: red;
+}
+a:nth-child(3):hover{
+	color: red;
+}
+a:nth-child(4):hover{
+	color: red;
+}
+a:nth-child(5):hover{
+	color: red;
+}
+nav{
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+nav ul{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+nav li{
+	text-align: center;
+	display: inline-block;
+	padding: 10px;	
+	box-sizing: border-box;
+}
+footer{
+	padding: 1% 10%;
+	color: white;
+	text-align: justify;
+	background-color: #777;
+	clear: both;
+}
+@media screen and (max-width: 895px){
+	
+}
+
+@media screen and (max-width: 690px){
+	nav ul{
+		width: 100%;
+	}
+	nav li{
+		width: 18%;
+	}
+}
+
+@media screen and (max-width: 460px){
+	main{
+		margin: 0;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 350px){
+
+}
